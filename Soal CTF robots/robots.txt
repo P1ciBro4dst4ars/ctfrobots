@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /home
+Disallow: /admin
+Disallow: /backup
+
+# PCLABS{wh3r3_th3_f14g_b8da87d39ab2}

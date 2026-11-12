@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> Login Berhasil!</h1>
+        <p class="subtitle">Selamat datang, <b>{{ user }}</b></p>
+
+        <div class="congrats">
+            <p>Kamu berhasil masuk! Berikut flag-nya:</p>
+            <code class="flag">{{ fake_flag }}</code>
+        </div>
+
+        <a href="{{ url_for('logout') }}" class="btn">Logout</a>
+    </div>
+</body>
+</html>
